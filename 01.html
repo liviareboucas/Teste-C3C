@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8"   
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"
+ <title>Curso Javascript</title>
+ 
+</head>
+
+<body>
+    <script>
+        function triangulos(let1, let2, let3){
+let l1 = let1;
+let l2 = let2;
+let l3 = let3;
+
+if(l1 < (l2+l3) && l2 < (l1 + l3) && l3 <(l1 + l2) )
+  if (l1 == l2 && l2 == l3 && l1 == l3){
+    console.log("O triângulo é equilátero");
+  }else if (l1 == l2 || l2 == l3 || l1 == l3){
+    console.log("o triângulo é isósceles");
+}else {
+    console.log("O triângulo é escaleno");
+  }
+}
+
+
+    </script>
+</body>
+
+</html>
